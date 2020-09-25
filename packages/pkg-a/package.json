@@ -1,0 +1,15 @@
+{
+  "name": "@kenrick95-testing/pkg-a",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Kenrick <kenrick95@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "@kenrick95-testing/pkg-b": "^1.0.0"
+  }
+}

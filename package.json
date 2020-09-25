@@ -1,0 +1,14 @@
+{
+  "name": "lerna-monorepo-package-json-lint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Kenrick <kenrick95@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "3.22.1",
+    "npm-package-json-lint": "^5.1.0"
+  },
+  "scripts": {
+    "lint-package-json": "DEBUG=npm-package-json-lint:* npmPkgJsonLint packages/ --ignorePath .gitignore"
+  }
+}
